@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, transform.position.y * 0, 0);
             // changeLog LF: changed transform.position.y * 0, 0) from transform.position.y * -1, 0)
+            // Luis Fajardo adjusted the player movement to not move above or below the scene threshold.
         }
     }
 
